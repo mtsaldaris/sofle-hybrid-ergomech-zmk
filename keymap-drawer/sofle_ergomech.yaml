@@ -1,7 +1,70 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', ESC, Q, W, E, R, T, Y, U, I, O, P, '', TAB, A, S, D, F, G, H, J, K, L, ;, '''', LEFT SHIFT,
-    Z, X, C, V, B, N, M, ',', ., /, '', MUTE, '', '', default, TAB, SPACE, ENTER, BACKSPACE, default, raise, adjust, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
+  default:
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''
+  - TAB
+  - {t: LEFT CONTROL, h: A}
+  - {t: LEFT ALT, h: S}
+  - {t: LEFT SHIFT, h: D}
+  - {t: LEFT GUI, h: F}
+  - G
+  - H
+  - {t: RIGHT GUI, h: J}
+  - {t: RIGHT SHIFT, h: K}
+  - {t: RIGHT ALT, h: L}
+  - {t: RIGHT CONTROL, h: ;}
+  - ''''
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ''
+  - MUTE
+  - ''
+  - ''
+  - coding
+  - TAB
+  - SPACE
+  - ENTER
+  - BACKSPACE
+  - raise
+  - adjust
+  - ''
+  - ENTER
+  - RIGHT
+  - UP ARROW
+  - LEFT
+  - DOWN
   raise:
   - '&studio_unlock'
   - F1
@@ -59,8 +122,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - A
   - B
@@ -125,8 +188,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - {type: held}
+  - ''
   - A
   - B
   - C
@@ -184,7 +247,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
