@@ -35,7 +35,7 @@ layers:
   - {t: J, h: RIGHT GUI}
   - {t: K, h: RIGHT SHIFT}
   - {t: L, h: RIGHT ALT}
-  - {t: RIGHT CONTROL, h: ;}
+  - {t: ;, h: RIGHT CONTROL}
   - ''''
   - LEFT SHIFT
   - Z
@@ -212,7 +212,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '"'
   - ''''
   - +
   - '|'
@@ -236,7 +236,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '?'
-  - {t: ▽, type: trans}
+  - ':'
   - ;
   - '='
   - '}'
