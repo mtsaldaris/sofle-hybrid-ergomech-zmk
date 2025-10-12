@@ -107,12 +107,12 @@
 
         code {
             bindings = <
-&trans  &trans    &trans  &trans    &trans    &trans         &trans     &trans                &trans     &trans    &trans  &trans
-&trans  &trans    &trans  &trans    &trans    &kp SQT        &kp PLUS   &kp NON_US_BACKSLASH  &kp SLASH  &trans    &trans  &trans
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT      &kp UNDER  &kp LBRC              &kp LBKT   &kp LPAR  &trans  &trans
-&trans  &trans    &trans  &trans    &trans    &kp SEMICOLON  &kp EQUAL  &kp RBRC              &kp RBKT   &kp RPAR  &trans  &trans
-&trans  &trans    &trans  &trans    &trans    &trans         &trans     &trans                &trans     &trans    &trans
-                                                             &trans     &trans                &trans     &trans    &trans
+&trans  &trans    &trans  &trans     &trans    &trans         &trans     &trans    &trans    &trans    &trans  &trans
+&trans  &trans    &trans  &trans     &trans    &kp SQT        &kp PLUS   &kp PIPE  &kp FSLH  &kp BSLH  &trans  &trans
+&trans  &kp EXCL  &kp AT  &kp HASH   &kp DLLR  &kp PRCNT      &kp UNDER  &kp LBRC  &kp LBKT  &kp LPAR  &trans  &trans
+&trans  &trans    &trans  &kp QMARK  &trans    &kp SEMICOLON  &kp EQUAL  &kp RBRC  &kp RBKT  &kp RPAR  &trans  &trans
+&trans  &trans    &trans  &trans     &trans    &trans         &trans     &trans    &trans    &trans    &trans
+                                                              &trans     &trans    &trans    &trans    &trans
             >;
 
             label = "code";
