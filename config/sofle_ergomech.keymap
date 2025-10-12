@@ -53,7 +53,7 @@
             bindings = <
 &kp GRAVE       &kp N1              &kp N2          &kp N3            &kp N4          &kp N5     &kp N6     &kp N7           &kp N8             &kp N9           &kp N0                  &none
 &kp ESC         &kp Q               &kp W           &kp E             &kp R           &kp T      &kp Y      &kp U            &kp I              &kp O            &kp P                   &none
-&kp TAB         &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_GUI F  &kp G      &kp H      &mt RIGHT_GUI J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt SEMI RIGHT_CONTROL  &kp SQT
+&kp TAB         &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_GUI F  &kp G      &kp H      &mt RIGHT_GUI J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z               &kp X           &kp C             &kp V           &kp B      &kp N      &kp M            &kp COMMA          &kp DOT          &kp FSLH                &kp LEFT_CONTROL
 &kp C_MUTE      &none               &mo 2           &mo 1             &kp TAB         &kp SPACE  &kp ENTER  &kp BACKSPACE    &mo 3              &mo 2            &none
                                                                                                  &kp ENTER  &kp RIGHT        &kp UP_ARROW       &kp LEFT         &kp DOWN
@@ -107,12 +107,12 @@
 
         code {
             bindings = <
-&trans  &trans    &trans  &trans     &trans    &trans         &trans     &trans    &trans    &trans    &trans  &trans
-&trans  &trans    &trans  &trans     &trans    &kp SQT        &kp PLUS   &kp PIPE  &kp FSLH  &kp BSLH  &trans  &trans
-&trans  &kp EXCL  &kp AT  &kp HASH   &kp DLLR  &kp PRCNT      &kp UNDER  &kp LBRC  &kp LBKT  &kp LPAR  &trans  &trans
-&trans  &trans    &trans  &kp QMARK  &trans    &kp SEMICOLON  &kp EQUAL  &kp RBRC  &kp RBKT  &kp RPAR  &trans  &trans
-&trans  &trans    &trans  &trans     &trans    &trans         &trans     &trans    &trans    &trans    &trans
-                                                              &trans     &trans    &trans    &trans    &trans
+&trans  &trans    &trans  &trans     &trans     &trans     &trans     &trans    &trans    &trans    &trans  &trans
+&trans  &trans    &trans  &trans     &kp DQT    &kp SQT    &kp PLUS   &kp PIPE  &kp FSLH  &kp BSLH  &trans  &trans
+&trans  &kp EXCL  &kp AT  &kp HASH   &kp DLLR   &kp PRCNT  &kp UNDER  &kp LBRC  &kp LBKT  &kp LPAR  &trans  &trans
+&trans  &trans    &trans  &kp QMARK  &kp COLON  &kp SEMI   &kp EQUAL  &kp RBRC  &kp RBKT  &kp RPAR  &trans  &trans
+&trans  &trans    &trans  &trans     &trans     &trans     &trans     &trans    &trans    &trans    &trans
+                                                           &trans     &trans    &trans    &trans    &trans
             >;
 
             label = "code";
