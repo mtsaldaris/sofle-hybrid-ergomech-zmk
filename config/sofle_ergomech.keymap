@@ -21,9 +21,19 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        adjust_layer {
+        raise_layer {
             if-layers = <1 1>;
+            then-layer = <1>;
+        };
+
+        media_layer {
+            if-layers = <2>;
             then-layer = <2>;
+        };
+
+        code_layer {
+            if-layers = <3>;
+            then-layer = <3>;
         };
     };
 
@@ -44,7 +54,7 @@
 &kp GRAVE       &kp N1              &kp N2          &kp N3            &kp N4          &kp N5     &kp N6     &kp N7           &kp N8             &kp N9           &kp N0                  &none
 &kp ESC         &kp Q               &kp W           &kp E             &kp R           &kp T      &kp Y      &kp U            &kp I              &kp O            &kp P                   &none
 &kp TAB         &mt A LEFT_CONTROL  &mt S LEFT_ALT  &mt D LEFT_SHIFT  &mt F LEFT_GUI  &kp G      &kp H      &mt J RIGHT_GUI  &mt K RIGHT_SHIFT  &mt L RIGHT_ALT  &mt SEMI RIGHT_CONTROL  &kp SQT
-&kp LEFT_SHIFT  &kp Z               &kp X           &kp C             &kp V           &kp B      &kp N      &kp M            &kp COMMA          &kp DOT          &kp FSLH                &none
+&kp LEFT_SHIFT  &kp Z               &kp X           &kp C             &kp V           &kp B      &kp N      &kp M            &kp COMMA          &kp DOT          &kp FSLH                &kp LEFT_CONTROL
 &kp C_MUTE      &none               &mo 2           &mo 1             &kp TAB         &kp SPACE  &kp ENTER  &kp BACKSPACE    &mo 3              &mo 2            &none
                                                                                                  &kp ENTER  &kp RIGHT        &kp UP_ARROW       &kp LEFT         &kp DOWN
             >;
@@ -82,7 +92,7 @@
             // |        |         |         |         |         |         | RGB_TOG | |      |      |      |       |      |       |       |
             //                    |         |         |         |         |         | |      |      |      |       |      |
 
-            label = "adjust";
+            label = "media";
             bindings = <
 &bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &none       &none         &none             &none       &none        &kp LC(LG(Q))
 &ext_power EP_TOG  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF  &none       &kp C_VOL_UP  &none             &none       &none        &kp LS(LG(NUMBER_4))
@@ -102,6 +112,8 @@
 &trans  &trans    &trans  &trans    &trans    &trans     &trans     &trans                &trans                 &trans  &trans
                                                          &trans     &trans                &trans                 &trans  &trans
             >;
+
+            label = "code";
         };
     };
 };
