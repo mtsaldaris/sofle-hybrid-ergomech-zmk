@@ -54,8 +54,8 @@ layers:
   - media
   - raise
   - TAB
-  - SPACE
   - ENTER
+  - SPACE
   - BACKSPACE
   - code
   - media
