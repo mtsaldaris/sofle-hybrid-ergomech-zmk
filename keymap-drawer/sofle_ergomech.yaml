@@ -48,17 +48,17 @@ layers:
   - ','
   - .
   - /
-  - ''
+  - LEFT CONTROL
   - MUTE
   - ''
-  - adjust
+  - media
   - raise
   - TAB
   - SPACE
   - ENTER
   - BACKSPACE
   - code
-  - adjust
+  - media
   - ''
   - ENTER
   - RIGHT
@@ -130,7 +130,7 @@ layers:
   - C
   - D
   - E
-  adjust:
+  media:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
