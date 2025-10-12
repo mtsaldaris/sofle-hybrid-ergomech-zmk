@@ -26,15 +26,15 @@ layers:
   - P
   - ''
   - TAB
-  - {t: LEFT CONTROL, h: A}
-  - {t: LEFT ALT, h: S}
-  - {t: LEFT SHIFT, h: D}
-  - {t: LEFT GUI, h: F}
+  - {t: A, h: LEFT CONTROL}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT SHIFT}
+  - {t: F, h: LEFT GUI}
   - G
   - H
-  - {t: RIGHT GUI, h: J}
-  - {t: RIGHT SHIFT, h: K}
-  - {t: RIGHT ALT, h: L}
+  - {t: J, h: RIGHT GUI}
+  - {t: K, h: RIGHT SHIFT}
+  - {t: L, h: RIGHT ALT}
   - {t: RIGHT CONTROL, h: ;}
   - ''''
   - LEFT SHIFT
